@@ -1,0 +1,84 @@
+body {
+  background-color: #7fffd4;
+  background-image: linear-gradient(
+    to top,
+    rgb(50, 185, 97) 50%,
+    rgb(20, 116, 160) 80%
+  );
+}
+h1 {
+  text-align: center;
+  color: #0e2b2b;
+  line-height: 10px;
+  text-emphasis-style: 26px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 0;
+}
+h2 {
+  text-align: center;
+  border: 1px solid #646868;
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 22px;
+  margin: 0px auto;
+  font-family: "Courier New", Courier, monospace;
+}
+p {
+  font-size: large;
+  margin-top: 10px auto;
+  line-height: 1.5;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+button {
+  display: block;
+  margin: 20px auto;
+  border: 1px solid #1a64d6;
+  background: #1a64d6;
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 16px 24px;
+  border-radius: 30px;
+  transition: all 200ms ease;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  cursor: pointer;
+  font-family: "Courier New", Courier, monospace;
+}
+
+button:hover {
+  background: #fff;
+  color: rgb(20, 116, 160);
+  border: 1px solid #1a64d6;
+}
+
+.logo {
+  display: block;
+  margin: 10px auto;
+  max-width: 100%;
+  padding: 10px;
+  border-radius: 12%;
+}
+.destination {
+  align-content: space-between;
+  margin: 5px auto;
+  text-align: justify;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  height: auto;
+  font-family: "Courier New", Courier, monospace;
+}
+.link {
+  align-items: center;
+  padding: 10px;
+  height: auto;
+  display: block;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer {
+  text-align: center;
+  font-weight: 150px;
+  font-size: 15px;
+}
